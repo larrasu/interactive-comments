@@ -7,6 +7,15 @@
     @apply antialiased bg-neutral-light-gray text-neutral-gray-blue;
   }
   textarea {
-    @apply px-5 py-4 border border-neutral-gray rounded-md;
+    @apply px-5 py-4 border border-neutral-gray rounded-md focus:border-primary-blue focus:outline-none cursor-pointer;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-6 py-3 rounded-lg transition uppercase font-medium hover:opacity-50;
+  }
+  .btn-primary {
+    @apply btn bg-primary-blue text-white;
   }
 }
