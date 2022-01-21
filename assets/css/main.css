@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased bg-neutral-light-gray text-neutral-gray-blue;
+  }
+  textarea {
+    @apply px-5 py-4 border border-neutral-gray rounded-md;
+  }
+}
